@@ -1,0 +1,638 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.index-body {
+
+
+    .background-video {
+
+
+        .back-video {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+
+        }
+    }
+
+    .index-header {
+
+        display: flex;
+        position: relative;
+        /* background-color: white; */
+        height: 80px;
+
+
+        .logo {
+
+            margin-top: 20px;
+
+
+            a {
+                text-decoration: none;
+                color: white;
+                font-size: 1.40rem;
+                font-weight: 700;
+
+
+                span {
+
+                    color: rgb(52, 138, 173);
+                }
+            }
+        }
+
+
+
+        /* navigation */
+
+
+
+        .navigation {
+
+            position: absolute;
+            right: 30px;
+            top: 10px;
+            width: 500px;
+            display: flex;
+            justify-content: space-evenly;
+
+            .nav-button {
+
+                border: none;
+                background-color: transparent;
+                font-weight: 700;
+                font-size: 0.74rem;
+                color: white;
+
+            }
+
+
+            .nav-button:hover {
+
+                border-bottom: 2px solid white;
+                transition-duration: 0.20s;
+            }
+        }
+    }
+
+
+
+    .index-main {
+
+        .greeting {
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+
+
+            .greeting-content {
+
+                text-align: center;
+                margin-top: -100px;
+
+
+
+                h1 {
+
+                    font-size: 3rem;
+                    font-style: bold;
+                    font-weight: 900;
+                    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+                    color: white;
+                    text-align: center;
+                }
+
+
+
+
+                .greeting-button {
+
+                    width: 120px;
+                    height: 45px;
+                    background-color: black;
+                    font-size: 0.75rem;
+                    font-weight: 700;
+                    color: white;
+
+
+                }
+            }
+        }
+
+
+
+        h2{
+
+            font-weight: 700;
+        }
+
+
+
+
+        .main-content {
+
+            background-color: white;
+        }
+
+
+
+        /* intro */
+
+        .introduction {
+
+            /* background-color: white; */
+
+
+            h2 {
+                padding-top: 140px;
+                font-size: 2rem;
+                font-weight: 700;
+                color: rgb(52, 138, 173);
+                margin-left: 5px;
+               
+            }
+
+
+            .intro-boxes {
+
+                display: flex;
+                justify-content: space-evenly;
+
+                .intro-content {
+
+                    font-size: 0.75rem;
+                    width: 500px;
+                    font-weight: 80;
+                    font-style: italic;
+
+                }
+
+
+                .intro-image {
+
+                    width: 350px;
+                    height: 200px;
+                    border: 1px solid;
+                    rotate: -5deg;
+
+                    img {
+
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        padding: 15px;
+                    }
+                }
+            }
+        }
+
+
+
+
+        .Services {
+
+
+            h2 {
+
+
+                padding-top: 180px;
+                font-size: 2rem;
+                font-weight: 700;
+                color: rgb(52, 138, 173);
+                text-align: center;
+
+
+            }
+
+
+            p {
+
+                text-align: center;
+                font-size: 0.60rem;
+                color: black;
+
+                small {
+
+                    display: block;
+                    margin-top: 15px;
+                }
+            }
+
+
+
+            .sdivision {
+                display: flex;
+                justify-content: space-evenly;
+                margin-top: 50px;
+
+
+                .sdiv {
+
+                    align-items: center;
+                    width: 350px;
+                    height: 260px;
+                    margin-top: 4px;
+                    text-align: center;
+                    padding: 20px;
+                    border: 1px solid;
+                    border-radius: 30px;
+
+                    big {
+                        display: block;
+                        padding-top: 30px;
+                        font-size: 1.60rem;
+                        font-weight: 700;
+                        height: 100px;
+                        /* color: black; */
+                        background-color: rgb(52, 138, 173);
+                        color: white;
+                    }
+
+
+                    p {
+
+                        font-size: 0.70rem;
+                    }
+                }
+
+                .sdiv:hover {
+
+                    width: 352px;
+                    height: 264px;
+                    border: px solid;
+                    border-radius: 20px;
+                    /* box-shadow: 2px 2px 2px 2px;   */
+                }
+            }
+        }
+
+
+
+        /* About */
+
+        .About {
+
+
+            margin: auto;
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 180px;
+
+
+            .ad-image {
+
+                width: 390px;
+                height: 240px;
+                margin-top: 30px;
+                border: 1px solid;
+                rotate: -5deg;
+
+
+                img {
+
+                    width: 100%;
+                    height: 100%;
+                    padding: 20px;
+                }
+            }
+
+            .adivision {
+
+                height: 500px;
+                width: 600px;
+                font-size: 12px;
+                padding: 20px;
+
+                h2 {
+
+                    font-size: 2.50rem;
+                    font-weight: 700;
+
+                    span {
+
+                        color: rgb(52, 138, 173);
+                    }
+                }
+
+            }
+        }
+
+
+
+
+
+
+        /* Tourist packages */
+
+
+        .Tourist-packages {
+
+
+
+            h2 {
+
+                margin-top: 100px;
+                font-size: 2.50rem;
+                font-weight: 700;
+                color: black;
+                text-align: center;
+                display: block;
+
+                span {
+
+                    color: rgb(52, 138, 173);
+
+                }
+
+            }
+
+
+
+            .tdivision {
+
+                display: flex;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+            }
+
+
+            .tour-card {
+
+                position: relative;
+                width: 300px;
+                height: 500px;
+                border: 1px solid;
+                border-radius: 20px;
+                margin: 20px;
+
+
+                .tour-image {
+
+                    width: 100%;
+                    height: 180px;
+
+
+                    img {
+
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        border-top-right-radius: 20px;
+                        border-top-left-radius: 20px;
+                    }
+
+
+                }
+
+                .tour-details {
+
+                    padding-left: 2px;
+
+
+                    p {
+                        font-size: 0.70rem;
+
+                        strong {
+                            display: block;
+                            padding-top: 5px;
+                            font-size: 0.80rem;
+                        }
+
+                    }
+
+
+                    a {
+
+
+                        text-align: center;
+                        display: flex;
+                        justify-content: center;
+                        text-decoration: none;
+
+                        button {
+
+                            position: absolute;
+                            bottom: 40px;
+                            width: 120px;
+                            height: 40px;
+                            font-size: 12px;
+                            font-weight: 700;
+
+                        }
+                    }
+
+                    button:hover{
+
+                        background-color: rgb(18, 143, 18);
+                        color:white;
+                    }
+                }
+            }
+
+
+            .tour-card:hover {
+
+                box-shadow: 1px 1px 1px 1px;
+                transition-duration: 0.40s;
+            }
+        }
+
+
+
+
+
+        /* Plan Form */
+
+        .plan-form {
+
+            padding-top: 40px;
+
+
+            h2 {
+                text-align: center;
+                margin-top: 100px;
+                font-size: 2.50rem;
+                font-weight: 700;
+
+                span {
+
+                    color: rgb(52, 138, 173);
+                }
+            }
+
+            .trip-planner {
+
+
+                display: flex;
+                justify-content: space-evenly;
+                padding: 30px;
+
+
+
+                .field-container {
+                    width: 150px;
+
+
+                    label {
+
+                        font-size: 15px;
+                        font-weight: bold;
+                    }
+
+
+                    input {
+
+                        font-size: 12px;
+                    }
+                }
+
+
+                .submit-container {
+
+                    button {
+
+                        width: 80px;
+                        height: 40px;
+                        font-size: 0.80rem;
+                        font-weight: 700;
+                        background-color: black;
+                        color: white;
+                    }
+                }
+
+
+
+            }
+        }
+
+        .Contact {
+            padding-bottom: 80px;
+
+            h2 {
+                padding-top: 180px;
+                font-size: 2.90rem;
+                font-weight: 700;
+
+                /* text-align: center; */
+
+                span {
+                    color: rgb(52, 138, 173)
+                }
+            }
+
+
+
+            h4 {
+                font-size: 0.70rem;
+                font-weight: 70;
+                text-align: center;
+                padding-top: 30px;
+            }
+
+
+            .c-content {
+
+                font-size: small;
+            }
+
+            .c-items {
+
+                display: flex;
+                justify-content: space-evenly;
+                padding-top: 20px;
+
+
+                button {
+
+                    border: none;
+                    background-color: white;
+                    font-size: 12px;
+
+
+                    big {
+
+                        display: block;
+                        font-size: 1.10rem;
+                    }
+
+
+                }
+            }
+        }
+    }
+
+
+    footer {
+        background-color: skyblue;
+        padding-top: 50px;
+
+
+        .row {
+
+            padding: 15px;
+        }
+
+        h5 {
+
+            font-size: 0.70rem;
+            font-weight: 500;
+        }
+
+
+        ul {
+
+            font-size: 0.60rem;
+        }
+
+
+
+        form {
+
+            h5 {
+
+                font-size: 0.86rem;
+
+            }
+
+
+            p {
+
+                font-size: 0.70rem;
+            }
+
+            input {
+
+                font-size: 14px;
+            }
+
+
+            button {
+
+                font-size: 0.80rem;
+            }
+        }
+
+
+        .d-flex{
+
+            font-size: 0.70rem;
+        }
+
+    }
+}

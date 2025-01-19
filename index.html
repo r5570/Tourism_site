@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Expendition</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="static/css/style.css">
+  <link rel="stylesheet" href="static/css/mobile.css">
+</head>
+
+<body class="index-body">
+  <div class="background-video">
+    <video muted autoplay loop class="back-video">
+      <source src="static/video/bg-video4.mp4">
+    </video>
+  </div>
+  <header class="index-header">
+    <div class="logo">
+      <a href="">Travel<span>ler</span></a>
+    </div>
+    <div class="navigation">
+      <a href=""><button class="nav-button">HOME</button></a>
+      <a href="#INTRO"><button class="nav-button">INTRO</button></a>
+      <a href="#PLAN-TRIP"><button class="nav-button">PLAN TRIP</button></a>
+      <a href="#ABOUT"><button class="nav-button">ABOUT US</button></a>
+      <a href=""><button class="nav-button">LOGIN</button></a>
+    </div>
+  </header>
+  <main class="index-main">
+    <!-- Greeting -->
+    <section class="greeting">
+      <div class="greeting-content">
+        <h1>Let's Discover <br>The World your way</h1>
+        <a href=""><button class="greeting-button">Book now</button></a>
+      </div>
+    </section>
+    <section class="main-content">
+
+      <section class="introduction" id="INTRO">
+        <h2>INTRO</h2>
+        <div class="intro-boxes">
+          <div class="intro-content">Welcome to Gallivantor, your premier resource for comprehensive travel insights and
+            expertly curated itineraries. Our platform is dedicated to providing discerning travelers with detailed
+            information on a diverse array of global destinations, from renowned landmarks to undiscovered locales. With
+            a focus on enriching travel experiences, Gallivantor offers well-researched guides, recommendations, and
+            tips to ensure every journey is meticulously planned and executed.
+
+            At Gallivantor, we understand that travel is not merely about reaching a destination, but about immersing
+            oneself in new cultures, exploring distinctive landscapes, and creating lasting memories. Our mission is to
+            empower travelers with the knowledge and tools needed to navigate the world with confidence and ease.
+
+            Begin your exploration today with Gallivantor, where every journey is an opportunity to discover the
+            extraordinary.</div>
+          <div class="intro-image"><img src="static/images/island_.jpg" alt=""></div>
+        </div>
+      </section>
+
+      <!-- services -->
+
+      <section class="Services" id="SERVICES">
+        <h2>SERVICES</h2>
+        <p>Services provided by us</p>
+        <div class="sdivision">
+          <div class="sdiv"><big><i class="bi bi-bag-check"></i></big>
+            <p>Exclusive Tour packages<small>
+                Discover our exclusive tour packages, tailored for a unique and unforgettable travel experience. From
+                hidden gems to luxurious getaways, we offer something special for every adventurer.
+              </small></p>
+          </div>
+          <div class="sdiv"><big><i class="bi bi-person"></i></big>
+            <p>Guide Services<small>
+                Enhance your journey with our expert guide services, providing insider knowledge and personalized
+                attention. Explore destinations with confidence, as our experienced guides bring each location to
+                life.</small></p>
+          </div>
+          <div class="sdiv"><big><i class="bi bi-pencil-square"></i></big>
+            <p>Trip planning & suggestions<small>
+                Let us help you craft the perfect itinerary with our tailored trip planning and expert suggestions.
+                Whether you're seeking adventure or relaxation, we ensure every detail is designed to match your travel
+                dreams.
+              </small></p>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Plan -->
+      <section class="plan-form" id="PLAN-TRIP">
+
+        <h2>Want to plan a trip <span>here you go.. </span></h2>
+
+        <form class="trip-planner">
+          <!-- Destination -->
+          <div class="field-container">
+            <label for="destination">Destination</label>
+            <input type="text" id="destination" name="destination" placeholder="Enter Destination" required>
+          </div>
+
+          <!-- Depart Date -->
+          <div class="field-container">
+            <label for="depart-date">Depart Date</label>
+            <input type="date" id="depart-date" name="depart-date" required>
+          </div>
+
+          <!-- Return Date -->
+          <div class="field-container">
+            <label for="return-date">Return Date</label>
+            <input type="date" id="return-date" name="return-date" required>
+          </div>
+
+          <!-- Duration -->
+          <div class="field-container">
+            <label for="duration">Duration (Days)</label>
+            <input type="number" id="duration" name="duration" placeholder="Number of days" required min="1">
+          </div>
+
+          <!-- Budget -->
+          <div class="field-container">
+            <label for="budget">Budget Amount</label>
+            <input type="number" id="budget" name="budget" placeholder="Enter budget" required min="0">
+          </div>
+          <br>
+
+          <!-- Submit Button -->
+          <div class="submit-container">
+            <a href=""><button type="submit">Submit</button></a>
+          </div>
+        </form>
+      </section>
+
+
+      <!-- About Us -->
+      <section class="About" id="ABOUT">
+
+
+        <div class="ad-image">
+          <img src="static/images/a2.jpg" alt="">
+
+        </div>
+
+        <div class="adivision">
+          <h2>About <span>Us</span></h2>
+          At **Travellor**, we’re passionate about turning your travel dreams into unforgettable realities. Founded
+          with a love for exploration, we specialize in crafting personalized travel experiences that inspire and
+          delight. <br><br>
+
+          From serene beaches to bustling cities, we offer tailored travel packages, guided tours, and seamless
+          bookings for flights, accommodations, and activities. Whether you’re traveling solo, with family, or in a
+          group, we ensure every journey is unique and stress-free. <br><br>
+
+          Our mission is to connect you with the world’s beauty, culture, and adventure while promoting sustainable
+          and responsible tourism. <br><br>
+
+          With expert planning, local insights, and round-the-clock support, Travellor is your trusted companion for
+          extraordinary journeys. <br><br>
+
+          Let us take you beyond the ordinary and into the extraordinary—where will Travellor take you next?
+        </div>
+      </section>
+
+      <!-- Tourist packages -->
+      <section class="Tourist-packages">
+        <h2> <span>Travel Packages</span> available</h2>
+        <div class="tdivision">
+
+          <!-- card -->
+          <div class="tour-card">
+            <div class="tour-image">
+              <img src="static/images/mysore_palace.jpg" alt="">
+            </div>
+            <div class="tour-details">
+              <p>
+                <strong>Places covered:</strong> Jaipur,Udaipur etc
+                <strong>Duration :</strong> 10 days
+                <strong>Highlights of the visit :</strong> Jaipur fort
+                <strong>Facilities</strong> Food & Resting is included in the packages
+                <em><small>Come and visit the land of indian royalty</small></em>
+              </p>
+              <a href=""><button>Book Now</button></a>
+            </div>
+          </div>
+
+          <!-- card -->
+          <div class="tour-card">
+            <div class="tour-image">
+              <img src="static/images/munnar.jpg" alt="">
+            </div>
+            <div class="tour-details">
+              <p>
+                <strong>Places covered:</strong> Jaipur,Udaipur etc
+                <strong>Duration :</strong> 10 days
+                <strong>Highlights of the visit :</strong> Jaipur fort
+                <strong>Facilities</strong> Food & Resting is included in the packages
+                <em><small>Come and visit the land of indian royalty</small></em>
+              </p>
+              <a href=""><button>Book Now</button></a>
+            </div>
+          </div>
+
+          <!-- card -->
+          <div class="tour-card">
+            <div class="tour-image">
+              <img src="static/images/backwaters.jpeg" alt="">
+            </div>
+            <div class="tour-details">
+              <p>
+                <strong>Places covered:</strong> Jaipur,Udaipur etc
+                <strong>Duration :</strong> 10 days
+                <strong>Highlights of the visit :</strong> Jaipur fort
+                <strong>Facilities</strong> Food & Resting is included in the packages
+                <em><small>Come and visit the land of indian royalty</small></em>
+              </p>
+              <a href=""><button>Book Now</button></a>
+            </div>
+          </div>
+
+
+          <!-- card -->
+          <div class="tour-card">
+            <div class="tour-image">
+              <img src="static/images/tiruvanathapuram.jpg" alt="">
+            </div>
+            <div class="tour-details">
+              <p>
+                <strong>Places covered:</strong> Jaipur,Udaipur etc
+                <strong>Duration :</strong> 10 days
+                <strong>Highlights of the visit :</strong> Jaipur fort
+                <strong>Facilities</strong> Food & Resting is included in the packages
+                <em><small>Come and visit the land of indian royalty</small></em>
+              </p>
+              <a href=""><button>Book Now</button></a>
+            </div>
+          </div>
+
+          <!-- card -->
+          <div class="tour-card">
+            <div class="tour-image">
+              <img src="static/images/rajasthan.jpg" alt="">
+            </div>
+            <div class="tour-details">
+              <p>
+                <strong>Places covered:</strong> Jaipur,Udaipur etc
+                <strong>Duration :</strong> 10 days
+                <strong>Highlights of the visit :</strong> Jaipur fort
+                <strong>Facilities</strong> Food & Resting is included in the packages
+                <em><small>Come and visit the land of indian royalty</small></em>
+              </p>
+              <a href=""><button>Book Now</button></a>
+            </div>
+          </div>
+
+          <!-- card -->
+          <div class="tour-card">
+            <div class="tour-image">
+              <img src="static/images/rajasthan.jpg" alt="">
+            </div>
+            <div class="tour-details">
+              <p>
+                <strong>Places covered:</strong> Jaipur,Udaipur etc
+                <strong>Duration :</strong> 10 days
+                <strong>Highlights of the visit :</strong> Jaipur fort
+                <strong>Facilities</strong> Food & Resting is included in the packages
+                <em><small>Come and visit the land of indian royalty</small></em>
+              </p>
+              <a href=""><button>Book Now</button></a>
+            </div>
+          </div>
+
+
+
+        </div>
+
+      </section>
+
+      <!-- Contact -->
+
+      <section class="Contact">
+        <h2>
+          <span>Contact</span> Us
+        </h2>
+        <div class="c-content">
+
+          <p>Have questions or need help planning your perfect getaway? We're here to make your travel dreams come true!
+            Whether you're looking for expert advice, detailed itineraries, or just a friendly chat about your next
+            adventure, our team is ready to assist.</p>
+        </div>
+
+        <h4>You can contact us via below social media platforms </h4>
+        <div class="c-items">
+          <a href=""><button><big><i class="bi bi-twitter-x"></i> </big>traveller_ </button></a>
+          <a href=""><button><big><i class="bi bi-instagram"></i></big>traveller_tourism </button></a>
+          <a href=""><button><big> <i class="bi bi-google"></i></big>traveller@gmail.com </button></a>
+          <a href=""><button><big> <i class="bi bi-threads"></i> </big>traveller_visit </button></a>
+
+        </div>
+
+      </section>
+
+
+    </section>
+
+
+
+  </main>
+  <footer class="py-5">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Cruise Tourism</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Andaman Explorer</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Golden Ganges Voyage</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Deccan Dreamliner</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Royal Backwaters Odyssey</a>
+          </li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">River Rapids Escapade</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Wellness & Spiritual Tourism</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Rishikesh Yoga Retreat</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Kerala Ayurveda
+              Rejuvenation</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Bodh Gaya Spiritual Quest</a>
+          </li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Varanasi Pilgrim Serenity</a>
+          </li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Meditation in Dharamshala </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Luxury Tourism</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Palace on Wheels Experience</a>
+          </li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Royal Rajasthan Retreat</a>
+          </li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Luxury Kashmir Paradise</a>
+          </li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Opulent Odisha Heritage</a>
+          </li>
+
+        </ul>
+      </div>
+
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h5>Subscribe to our newsletter</h5>
+          <p>Monthly digest of what's new and exciting from us.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-primary" type="button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>© 2024 Company, Inc. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+              <use xlink:href="#twitter"></use>
+            </svg></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+              <use xlink:href="#instagram"></use>
+            </svg></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+              <use xlink:href="#facebook"></use>
+            </svg></a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
