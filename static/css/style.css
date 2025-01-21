@@ -123,15 +123,22 @@
 
                 .greeting-button {
 
-                    width: 120px;
+                    width: 150px;
                     height: 45px;
+                    border-radius: 30px;
                     background-color: black;
-                    font-size: 0.75rem;
+                    font-size: 1rem;
                     font-weight: 700;
                     color: white;
 
 
                 }
+
+            }
+
+            .greeting-button:hover{
+
+                background-color: green;
             }
         }
 
@@ -380,6 +387,7 @@
                 border: 1px solid;
                 border-radius: 20px;
                 margin: 20px;
+                box-shadow: 0.5px 0.5px 0.5px 0.5px;
 
 
                 .tour-image {
