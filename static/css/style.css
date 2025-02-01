@@ -123,7 +123,7 @@
 
                 .greeting-button {
 
-                    width: 150px;
+                    width: 200px;
                     height: 45px;
                     border-radius: 30px;
                     background-color: black;
@@ -136,15 +136,16 @@
 
             }
 
-            .greeting-button:hover{
+            .greeting-button:hover {
 
-                background-color: green;
+               /* jkljadl */
+                
             }
         }
 
 
 
-        h2{
+        h2 {
 
             font-weight: 700;
         }
@@ -172,7 +173,7 @@
                 font-weight: 700;
                 color: rgb(52, 138, 173);
                 margin-left: 5px;
-               
+
             }
 
 
@@ -344,303 +345,381 @@
 
 
 
+        /* Guides */
 
-        /* Tourist packages */
+        .G-section {
 
-
-        .Tourist-packages {
-
-
-
-            h2 {
-
-                margin-top: 100px;
-                font-size: 2.50rem;
+            h1 {
+                font-size: 2.30rem;
                 font-weight: 700;
-                color: black;
                 text-align: center;
-                display: block;
-
-                span {
-
-                    color: rgb(52, 138, 173);
-
-                }
-
             }
 
 
-
-            .tdivision {
+            .G-division {
 
                 display: flex;
                 justify-content: space-evenly;
                 flex-wrap: wrap;
-            }
+                row-gap: 20px;
+                padding: 80px;
 
+                .G-card {
+                    width: 490px;
+                    height: 500px;
+                    border: 1px solid;
 
-            .tour-card {
-
-                position: relative;
-                width: 300px;
-                height: 500px;
-                border: 1px solid;
-                border-radius: 20px;
-                margin: 20px;
-                box-shadow: 0.5px 0.5px 0.5px 0.5px;
-
-
-                .tour-image {
-
-                    width: 100%;
-                    height: 180px;
 
 
                     img {
-
                         width: 100%;
-                        height: 100%;
+                        height: 300px;
+                        /* border-radius: 50%; */
+                        border: 1px solid;
                         object-fit: cover;
-                        border-top-right-radius: 20px;
-                        border-top-left-radius: 20px;
+                        transition:0.3s ease-in-out;
+
                     }
-
-
-                }
-
-                .tour-details {
-
-                    padding-left: 2px;
-
 
                     p {
-                        font-size: 0.70rem;
 
-                        strong {
-                            display: block;
-                            padding-top: 5px;
-                            font-size: 0.80rem;
-                        }
-
-                    }
-
-
-                    a {
-
-
+                        width: 100%;
+                        height: 148px;
                         text-align: center;
-                        display: flex;
-                        justify-content: center;
-                        text-decoration: none;
+                        font-size: 0.80rem;
+                        padding-top: 10px;
 
-                        button {
+                        small{
 
-                            position: absolute;
-                            bottom: 40px;
-                            width: 120px;
-                            height: 40px;
-                            font-size: 12px;
-                            font-weight: 700;
-
+                            display: block;
+                            padding-top:5px;
                         }
                     }
-
-                    button:hover{
-
-                        background-color: rgb(18, 143, 18);
-                        color:white;
-                    }
                 }
+
+                .G-card img:hover{
+
+                    transform:scale(1.02);
+                    transition-duration:0.3s;
+
+                }
+
+
+
+
             }
 
 
-            .tour-card:hover {
 
-                box-shadow: 1px 1px 1px 1px;
-                transition-duration: 0.40s;
-            }
+
+        }
+    }
+}
+
+/* Tourist packages */
+
+
+.Tourist-packages {
+
+
+
+    h2 {
+
+        margin-top: 100px;
+        font-size: 2.50rem;
+        font-weight: 700;
+        color: black;
+        text-align: center;
+        display: block;
+
+        span {
+
+            color: rgb(52, 138, 173);
+
         }
 
-
-
-
-
-        /* Plan Form */
-
-        .plan-form {
-
-            padding-top: 40px;
-
-
-            h2 {
-                text-align: center;
-                margin-top: 100px;
-                font-size: 2.50rem;
-                font-weight: 700;
-
-                span {
-
-                    color: rgb(52, 138, 173);
-                }
-            }
-
-            .trip-planner {
-
-
-                display: flex;
-                justify-content: space-evenly;
-                padding: 30px;
-
-
-
-                .field-container {
-                    width: 150px;
-
-
-                    label {
-
-                        font-size: 15px;
-                        font-weight: bold;
-                    }
-
-
-                    input {
-
-                        font-size: 12px;
-                    }
-                }
-
-
-                .submit-container {
-
-                    button {
-
-                        width: 80px;
-                        height: 40px;
-                        font-size: 0.80rem;
-                        font-weight: 700;
-                        background-color: black;
-                        color: white;
-                    }
-                }
-
-
-
-            }
-        }
-
-        .Contact {
-            padding-bottom: 80px;
-
-            h2 {
-                padding-top: 180px;
-                font-size: 2.90rem;
-                font-weight: 700;
-
-                /* text-align: center; */
-
-                span {
-                    color: rgb(52, 138, 173)
-                }
-            }
-
-
-
-            h4 {
-                font-size: 0.70rem;
-                font-weight: 70;
-                text-align: center;
-                padding-top: 30px;
-            }
-
-
-            .c-content {
-
-                font-size: small;
-            }
-
-            .c-items {
-
-                display: flex;
-                justify-content: space-evenly;
-                padding-top: 20px;
-
-
-                button {
-
-                    border: none;
-                    background-color: white;
-                    font-size: 12px;
-
-
-                    big {
-
-                        display: block;
-                        font-size: 1.10rem;
-                    }
-
-
-                }
-            }
-        }
     }
 
 
-    footer {
-        background-color: skyblue;
-        padding-top: 50px;
+
+    .tdivision {
+
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
 
 
-        .row {
+    .tour-card {
 
-            padding: 15px;
-        }
-
-        h5 {
-
-            font-size: 0.70rem;
-            font-weight: 500;
-        }
-
-
-        ul {
-
-            font-size: 0.60rem;
-        }
+        position: relative;
+        width: 390px;
+        height: 500px;
+        border: 1px solid;
+        border-radius: 20px;
+        margin: 20px;
+        box-shadow: 0.5px 0.5px 0.5px 0.5px;
 
 
+        .tour-image {
 
-        form {
+            width: 100%;
+            height: 180px;
 
-            h5 {
 
-                font-size: 0.86rem;
+            img {
 
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-top-right-radius: 20px;
+                border-top-left-radius: 20px;
             }
+
+
+        }
+
+        .tour-details {
+
+            padding-left: 2px;
 
 
             p {
-
                 font-size: 0.70rem;
+
+                #big{
+
+                    text-align: center;
+                }
+
+                strong {
+                    display: block;
+                    padding-top: 5px;
+                    font-size: 0.70rem;
+                    font-weight: 560;
+                }
+
             }
+
+
+            a {
+
+
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                text-decoration: none;
+
+                button {
+
+                    position: absolute;
+                    bottom: 40px;
+                    width: 120px;
+                    height: 40px;
+                    font-size: 12px;
+                    font-weight: 700;
+
+                }
+            }
+
+            button:hover {
+
+                background-color:black;
+                color: white;
+            }
+        }
+    }
+
+
+    .tour-card:hover {
+
+        box-shadow: 1px 1px 1px 1px;
+        transition-duration: 0.40s;
+    }
+}
+
+
+
+
+
+/* Plan Form */
+
+.plan-form {
+
+    padding-top: 40px;
+
+
+    h2 {
+        text-align: center;
+        margin-top: 100px;
+        font-size: 2.50rem;
+        font-weight: 700;
+
+        span {
+
+            color: rgb(52, 138, 173);
+        }
+    }
+
+    .trip-planner {
+
+
+        display: flex;
+        justify-content: space-evenly;
+        padding: 30px;
+        background-color: rgb(112, 171, 195);
+        padding: 20px;
+        padding-bottom: 130px;
+
+
+
+        .field-container {
+            width: 150px;
+
+
+            label {
+
+                font-size: 15px;
+                font-weight: bold;
+            }
+
 
             input {
 
-                font-size: 14px;
-            }
-
-
-            button {
-
-                font-size: 0.80rem;
+                font-size: 12px;
             }
         }
 
 
-        .d-flex{
+        .submit-container {
+
+            button {
+
+                width: 80px;
+                height: 40px;
+                font-size: 0.80rem;
+                font-weight: 700;
+                background-color: black;
+                color: white;
+            }
+        }
+
+
+
+    }
+}
+
+.Contact {
+    padding-bottom: 80px;
+
+    h2 {
+        padding-top: 180px;
+        font-size: 2.90rem;
+        font-weight: 700;
+
+        /* text-align: center; */
+
+        span {
+            color: rgb(52, 138, 173)
+        }
+    }
+
+
+
+    h4 {
+        font-size: 0.70rem;
+        font-weight: 70;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+
+    .c-content {
+
+        font-size: small;
+    }
+
+    .c-items {
+
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 20px;
+
+
+        button {
+
+            border: none;
+            background-color: white;
+            font-size: 12px;
+
+
+            big {
+
+                display: block;
+                font-size: 1.10rem;
+            }
+
+
+        }
+    }
+}
+
+
+
+footer {
+    background-color: skyblue;
+    padding-top: 50px;
+
+
+    .row {
+
+        padding: 15px;
+    }
+
+    h5 {
+
+        font-size: 0.70rem;
+        font-weight: 500;
+    }
+
+
+    ul {
+
+        font-size: 0.60rem;
+    }
+
+
+
+    form {
+
+        h5 {
+
+            font-size: 0.86rem;
+
+        }
+
+
+        p {
 
             font-size: 0.70rem;
         }
 
+        input {
+
+            font-size: 14px;
+        }
+
+
+        button {
+
+            font-size: 0.80rem;
+        }
     }
+
+
+    .d-flex {
+
+        font-size: 0.70rem;
+    }
+
 }
