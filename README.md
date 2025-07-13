@@ -1,4 +1,4 @@
-# 🌍 Traveller - Tourism Website
+# Traveller - Tourism Website
 
 **Traveller** is a static tourism website built using **HTML**, **CSS**, and **Bootstrap**. It offers an elegant and modern user interface for users to explore and book trips to various destinations. The website is visually engaging, featuring a full-screen **background video intro section** to provide an immersive first impression.
 
